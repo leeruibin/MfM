@@ -1,5 +1,7 @@
-![MfM-logo](assets/MfM_logo.png)
-
+<!-- ![MfM-logo](assets/MfM_logo.png) -->
+<div align="center">
+  <img src="assets/MfM_logo.png" alt="MfM-logo">
+</div>
 <div align="center">
 
 ## Many-for-Many: Unify the Training of Multiple Video and Image Generation and Manipulation Tasks
@@ -12,8 +14,14 @@
 
 This repository contains the code for the MfM model, pre-trained weights and inference code. You can find more information on our paper xxx. 🚀✨
 
-<div align="center">
+<!-- <div align="center">
   <video src="assets/MfM_demo.mp4" width="70%" poster=""> </video>
+</div> -->
+
+<div align="center">
+  
+  ![Demo Video](./assets/MfM_demo.mp4)
+  
 </div>
 
 ## 🔥🔥🔥 Latest News
