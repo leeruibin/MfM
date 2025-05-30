@@ -14,15 +14,15 @@
 
 This repository contains the code for the MfM model, pre-trained weights and inference code. You can find more information on our paper xxx. 🚀✨
 
-<!-- <div align="center">
-  <video src="assets/MfM_demo.mp4" width="70%" poster=""> </video>
-</div> -->
-
 <div align="center">
-  
-  ![Demo Video](./assets/MfM_demo.mp4)
-  
+  <video src="https://github.com/user-attachments/assets/5b5a4851-5188-4c31-9701-4bb5be939b6e" width="70%" poster=""> </video>
 </div>
+
+
+  
+  <!-- Option 2: If you have a GIF version -->
+  <!-- <img src="./assets/MfM_demo.gif" alt="MfM Demo" width="70%"> -->
+<!-- </div> -->
 
 ## 🔥🔥🔥 Latest News
 
