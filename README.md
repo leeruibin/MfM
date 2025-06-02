@@ -14,9 +14,9 @@
 
 This repository contains the code for the MfM model, pre-trained weights and inference code. You can find more information on our paper xxx. 🚀✨
 
-<div align="center">
+<!-- <div align="center">
   <video src="https://github.com/user-attachments/assets/5b5a4851-5188-4c31-9701-4bb5be939b6e" width="70%" poster=""> </video>
-</div>
+</div> -->
 
 
   
