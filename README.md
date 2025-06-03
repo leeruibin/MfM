@@ -1,6 +1,6 @@
 <!-- ![MfM-logo](assets/MfM_logo.png) -->
 <div align="center">
-  <img src="assets/MfM_logo.jpeg" alt="MfM-logo">
+  <img src="assets/MfM_logo.jpeg" alt="MfM-logo" width="50%">
 </div>
 <div align="center">
 
