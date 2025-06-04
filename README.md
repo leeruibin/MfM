@@ -22,9 +22,10 @@
 
 <!-- This repository contains the code for the MfM model, pre-trained weights and inference code. You can find more information on our paper <a href="https://arxiv.org/abs/2506.01758"><img alt="paper" src="https://img.shields.io/badge/arXiv-2506.01758-b31b1b.svg"></a> . 🚀✨ -->
 
-<!-- <div align="center">
-  <video src="https://github.com/user-attachments/assets/5b5a4851-5188-4c31-9701-4bb5be939b6e" width="70%" poster=""> </video>
-</div> -->
+## 📺 Demo Video
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/f1ddd1fd-1c2b-44e7-94dc-9f62963ab147" width="70%" poster=""> </video>
+</div>
 
 ## 📮 Architecture
 
