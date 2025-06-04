@@ -14,7 +14,9 @@
 
 
 
-> Tao yang, Ruibin Li, Yangming Shi, Yuqi Zhang, Qide Dong, Haoran Cheng, Weiguo Feng, Shilei Wen, Bingyue Peng, Lei Zhang
+> Tao Yang<sup>1</sup>, Ruibin Li<sup>1,2</sup>, Yangming Shi<sup>1</sup>, Yuqi Zhang<sup>1</sup>, Qide Dong<sup>1</sup>, Haoran Cheng<sup>1</sup>, Weiguo Feng<sup>1</sup>, Shilei Wen<sup>1</sup>, Bingyue Peng<sup>1</sup>, Lei Zhang<sup>2</sup>
+> 
+> <sup>1</sup>ByteDance, <sup>2</sup>The Hong Kong Polytechnic University, 
 > 
 > In this work, we introduce a unified framework, namely **many-for-many**, which leverages the available training data from many different visual generation and manipulation tasks to train a single model for those different tasks. Specifically, we design a lightweight adapter to unify the different conditions in different tasks, then employ a joint image-video learning strategy to progressively train the model from scratch. Our joint learning leads to a unified visual generation and manipulation model with improved video generation performance. In addition, we introduce depth maps as a condition to help our model better perceive the 3D space in visual generation. Two versions of our model are trained with different model sizes (8B and 2B), each of which can perform more than 10 different tasks. In particular, our 8B model demonstrates highly competitive performance in video generation tasks compared to open-source and even commercial engines. 🚀✨
 
@@ -64,7 +66,7 @@ If you find our code or model useful in your research, please cite:
 ```bibtex
 @article{yang2025MfM,
   title={Many-for-Many: Unify the Training of Multiple Video and Image Generation and Manipulation Tasks},
-  author={Tao yang, Ruibin Li, Yangming Shi, Yuqi Zhang, Qide Dong, Haoran Cheng, Weiguo Feng, Shilei Wen, Bingyue Peng, Lei Zhang},
+  author={Tao Yang, Ruibin Li, Yangming Shi, Yuqi Zhang, Qide Dong, Haoran Cheng, Weiguo Feng, Shilei Wen, Bingyue Peng, Lei Zhang},
   year={2025},
   booktitle={arXiv preprint arXiv:2506.01758},
 }
