@@ -7,12 +7,12 @@
 ## Many-for-Many: Unify the Training of Multiple Video and Image Generation and Manipulation Tasks
 
 <a href="https://leeruibin.github.io/MfMPage/"><img src="https://img.shields.io/static/v1?label=Project&message=Page&color=blue&logo=github-pages"></a> &ensp;
-<a href="https://arxiv.org/abs/xxx"><img alt="paper" src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv"></a> &ensp;
+<a href="https://arxiv.org/abs/2506.01758"><img alt="paper" src="https://img.shields.io/badge/arXiv-2506.01758-b31b1b.svg"></a> &ensp;
 <a href="https://github.com/SandAI-org/MAGI-1/LICENSE"><img alt="license" src="https://img.shields.io/badge/License-Apache2.0-green?logo=Apache"></a> &ensp;
 
 </div>
 
-This repository contains the code for the MfM model, pre-trained weights and inference code. You can find more information on our paper xxx. 🚀✨
+This repository contains the code for the MfM model, pre-trained weights and inference code. You can find more information on our paper <a href="https://arxiv.org/abs/2506.01758"><img alt="paper" src="https://img.shields.io/badge/arXiv-2506.01758-b31b1b.svg"></a> . 🚀✨
 
 <!-- <div align="center">
   <video src="https://github.com/user-attachments/assets/5b5a4851-5188-4c31-9701-4bb5be939b6e" width="70%" poster=""> </video>
@@ -51,10 +51,10 @@ In this work, we introduce a unified framework, namely **many-for-many**, which 
 If you find our code or model useful in your research, please cite:
 
 ```bibtex
-@article{li2024RORem,
+@article{yang2025MfM,
   title={Many-for-Many: Unify the Training of Multiple Video and Image Generation and Manipulation Tasks},
   author={Tao yang, Ruibin Li, Yangming Shi, Yuqi Zhang, Qide Dong, Haoran Cheng, Weiguo Feng, Shilei Wen, Bingyue Peng, Lei Zhang},
   year={2025},
-  booktitle={arxiv},
+  booktitle={arXiv preprint arXiv:2506.01758},
 }
 ```
