@@ -24,6 +24,54 @@
 
 <!-- This repository contains the code for the MfM model, pre-trained weights and inference code. You can find more information on our paper <a href="https://arxiv.org/abs/2506.01758"><img alt="paper" src="https://img.shields.io/badge/arXiv-2506.01758-b31b1b.svg"></a> . 🚀✨ -->
 
+## 🔥 Latest News
+
+- Inference code and model weights has been released, have fun with MfM ⭐⭐.
+
+## 📌 Progress Checklist
+<!-- ✅ -->
+
+-  ✅ **Inference Code**
+-  ✅ **Model Weights**
+-  ⬜️ **Optimization for Parallel Inference**
+
+
+## 🔥 Inference
+### 1. Install the requirements
+`pip install -r requirements.txt`
+
+### 2. Download the pipeline from huggingface
+
+```
+from huggingface_hub import snapshot_download
+
+snapshot_download(repo_id="LetsThink/MfM-Pipieline-8B", local_dir="xxx")
+
+
+#snapshot_download(repo_id="LetsThink/MfM-Pipieline-2B", local_dir="xxx")
+```
+### 3. Inference
+
+You can refer the inference script in scripts/inference.sh
+
+```
+PIPELINE_PATH=xxx
+OUTPUT_DIR=outputs
+TASK=t2v
+
+python infer_mfm_pipeline.py \
+        --output_dir $OUTPUT_DIR \
+        --task $TASK \
+        --crop_type keep_res \
+        --num_inference_steps 30 \
+        --guidance_scale 9 \
+        --motion_score 5 \
+        --num_samples 1 \
+        --upscale 4 \
+        --noise_aug_strength 0.0 \
+        --t2v_inputs your_prompt.txt \
+```
+
 ## 📺 Demo Video
 <div align="center">
   <video src="https://github.com/user-attachments/assets/f1ddd1fd-1c2b-44e7-94dc-9f62963ab147" width="70%" poster=""> </video>
@@ -37,15 +85,7 @@
   <!-- <img src="./assets/MfM_demo.gif" alt="MfM Demo" width="70%"> -->
 <!-- </div> -->
 
-## 🔥 Latest News
 
-- Inference code and model weights, coming soon.
-
-## 📌 Progress Checklist
-<!-- ✅ -->
-
-- [x] **⬜️ Inference Code**  
-- [x] **⬜️ Model Weights**
 
 <!-- ## Introduction
 
