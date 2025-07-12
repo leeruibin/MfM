@@ -56,6 +56,7 @@ OUTPUT_DIR=outputs
 TASK=t2v
 
 python infer_mfm_pipeline.py \
+        --pipeline_path LetsThink/MfM-Pipeline-8B \
         --output_dir $OUTPUT_DIR \
         --task $TASK \
         --crop_type keep_res \
