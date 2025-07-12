@@ -12,15 +12,12 @@
 # Many-for-Many: Unify the Training of Multiple Video and Image Generation and Manipulation Tasks
 </div>
 
-
-
 > Tao Yang<sup>1</sup>, Ruibin Li<sup>1,2</sup>, Yangming Shi<sup>1</sup>, Yuqi Zhang<sup>1</sup>, Qide Dong<sup>1</sup>, Haoran Cheng<sup>1</sup>, Weiguo Feng<sup>1</sup>, Shilei Wen<sup>1</sup>, Bingyue Peng<sup>1</sup>, Lei Zhang<sup>2</sup>
 > 
 > <sup>1</sup>ByteDance, <sup>2</sup>The Hong Kong Polytechnic University, 
 > 
-> In this work, we introduce a unified framework, namely **many-for-many**, which leverages the available training data from many different visual generation and manipulation tasks to train a single model for those different tasks. Specifically, we design a lightweight adapter to unify the different conditions in different tasks, then employ a joint image-video learning strategy to progressively train the model from scratch. Our joint learning leads to a unified visual generation and manipulation model with improved video generation performance. In addition, we introduce depth maps as a condition to help our model better perceive the 3D space in visual generation. Two versions of our model are trained with different model sizes (8B and 2B), each of which can perform more than 10 different tasks. In particular, our 8B model demonstrates highly competitive performance in video generation tasks compared to open-source and even commercial engines. 🚀✨
 
-<img src='./assets/visual_result.png'>
+
 
 <!-- This repository contains the code for the MfM model, pre-trained weights and inference code. You can find more information on our paper <a href="https://arxiv.org/abs/2506.01758"><img alt="paper" src="https://img.shields.io/badge/arXiv-2506.01758-b31b1b.svg"></a> . 🚀✨ -->
 
@@ -71,6 +68,11 @@ python infer_mfm_pipeline.py \
         --noise_aug_strength 0.0 \
         --t2v_inputs your_prompt.txt \
 ```
+
+
+> In this work, we introduce a unified framework, namely **many-for-many**, which leverages the available training data from many different visual generation and manipulation tasks to train a single model for those different tasks. Specifically, we design a lightweight adapter to unify the different conditions in different tasks, then employ a joint image-video learning strategy to progressively train the model from scratch. Our joint learning leads to a unified visual generation and manipulation model with improved video generation performance. In addition, we introduce depth maps as a condition to help our model better perceive the 3D space in visual generation. Two versions of our model are trained with different model sizes (8B and 2B), each of which can perform more than 10 different tasks. In particular, our 8B model demonstrates highly competitive performance in video generation tasks compared to open-source and even commercial engines. 🚀✨
+
+<img src='./assets/visual_result.png'>
 
 ## 📺 Demo Video
 <div align="center">
