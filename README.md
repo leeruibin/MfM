@@ -11,7 +11,7 @@
 # Many-for-Many: Unify the Training of Multiple Video and Image Generation and Manipulation Tasks
 </div>
 
-> Tao Yang<sup>1</sup>, Ruibin Li<sup>1,2</sup>, Yangming Shi<sup>1</sup>, Yuqi Zhang<sup>1</sup>, Qide Dong<sup>1</sup>, Haoran Cheng<sup>1</sup>, Weiguo Feng<sup>1</sup>, Shilei Wen<sup>1</sup>, Bingyue Peng<sup>1</sup>, Lei Zhang<sup>2</sup>
+> Ruibin Li<sup>1,2</sup>, Tao Yang<sup>1</sup>, Yangming Shi<sup>1</sup>, Weiguo Feng<sup>1</sup>, Shilei Wen<sup>1</sup>, Bingyue Peng<sup>1</sup>, Lei Zhang<sup>2</sup>
 > 
 > <sup>1</sup>ByteDance, <sup>2</sup>The Hong Kong Polytechnic University, 
 > 
@@ -108,8 +108,8 @@ If you find our code or model useful in your research, please cite:
 ```bibtex
 @article{yang2025MfM,
   title={Many-for-Many: Unify the Training of Multiple Video and Image Generation and Manipulation Tasks},
-  author={Tao Yang, Ruibin Li, Yangming Shi, Yuqi Zhang, Qide Dong, Haoran Cheng, Weiguo Feng, Shilei Wen, Bingyue Peng, Lei Zhang},
-  year={2025},
+  author={Ruibin Li, Tao Yang, Yangming Shi, Weiguo Feng, Shilei Wen, Bingyue Peng, Lei Zhang},
+  year={2026},
   booktitle={arXiv preprint arXiv:2506.01758},
 }
 ```
